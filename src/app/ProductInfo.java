@@ -1,7 +1,7 @@
 package app;
 
-
-public class ProductInfo {
+@SuppressWarnings("deprecated")
+public final class ProductInfo {
     @Product(name = "orange", quota = 12)
 
     public static String getData() {
